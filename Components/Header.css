@@ -1,0 +1,19 @@
+.header {
+    background-color: #b8031e;
+    color: #fff;
+    padding: 10px; 
+    box-shadow: 8px 5px 3px 2px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    max-width: 80px;
+    margin-left: 0; 
+    padding-left: 0; 
+}
+
+.nome {
+   text-align: center; 
+   align-items: center
+}

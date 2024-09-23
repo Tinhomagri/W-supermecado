@@ -1,0 +1,34 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  background-color: #c0392b;
+  text-align: center;
+  color: white;
+  position: sticky; 
+  width: 100%;
+  height: 150px;
+}
+
+
+ol {
+  gap: 5px;
+}
+
+li {
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+}
